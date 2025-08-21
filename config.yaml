@@ -1,0 +1,18 @@
+src_dir_obf: "../../res/obf_src_new/"
+src_dir_nor: "../../res/submissions/"
+compiled_dir: "../../res/compiled/"
+compilers:
+  clang: "clang++"
+  gcc: "g++"
+clang_options:
+  fla: null
+  sobf: null
+  split:
+    num: [2, 3]
+  sub: null
+  bcf:
+    loop: [2, 3]
+    prob: [30, 35, 40, 45, 50]
+gcc_options:
+  strip_symbols: true
+  optimization_levels: ["-O2", "-O3"]

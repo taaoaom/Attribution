@@ -1,0 +1,17 @@
+{
+    "database_path": "../../res/database",
+    "submissions_path": "../../res/submissions",
+    "compiler": {
+        "base_path": "../../res/submissions",
+        "output_base_path": "../../res/compiled",
+        "gcc_lib_path": "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0",
+        "lib_path": "C:/msys64/mingw64/lib",
+        "c_include_path": "C:/msys64/mingw64/include",
+        "cpp_include_path": "C:/msys64/mingw64/include/c++/12.2.0",
+        "sys_include_path": "C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32"
+    },
+    "obfuscator": {
+        "base_path": "../../../res/compiled",
+        "obfuscated_base_path": "../../../res/obfuscated"
+    }
+}
